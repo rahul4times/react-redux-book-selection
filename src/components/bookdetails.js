@@ -13,7 +13,9 @@ class BookDetails extends Component{
         <CardBody>
           <CardTitle>Book Details</CardTitle>
           <CardSubtitle>Title: {bookDetails.title}</CardSubtitle>
-          <CardText>Pages: {bookDetails.pages}</CardText>
+          <CardText>Pages: {bookDetails.pages}<br/>
+            Author: {bookDetails.author}
+          </CardText>
         </CardBody>
       </Card>
     );
